@@ -1,0 +1,56 @@
+.buy-coins-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.packages-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    background: white;
+    border: 2px solid #eee;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+    border-color: #007bff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.coins-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-shadow: 1px 1px 0 #999;
+}
+
+.price-tag {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #333;
+}
+
+.btn-buy {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-buy:hover {
+    background: #218838;
+}

@@ -1,0 +1,17 @@
+[dotenv@17.2.3] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Server running on port 3001
+User connected: lpoZjhrC-mpPm9q7AAAB
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout._onTimeout (C:\Users\Suhan (NDJSK)\OneDrive\Desktop\Housie-housie\housie-game\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:131:25)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+C:\Users\Suhan (NDJSK)\OneDrive\Desktop\Housie-housie\housie-game\server\gameStore.js:224
+    lastNumbers: room.numbers.slice(-5),
+                              ^
+
+TypeError: Cannot read properties of undefined (reading 'slice')
+    at getRoomState (C:\Users\Suhan (NDJSK)\OneDrive\Desktop\Housie-housie\housie-game\server\gameStore.js:224:31)
+    at joinRoom (C:\Users\Suhan (NDJSK)\OneDrive\Desktop\Housie-housie\housie-game\server\gameStore.js:113:29)
+    at Socket.<anonymous> (C:\Users\Suhan (NDJSK)\OneDrive\Desktop\Housie-housie\housie-game\server\index.js:117:24)
+
+Node.js v22.12.0
